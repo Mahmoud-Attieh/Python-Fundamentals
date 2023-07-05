@@ -1,0 +1,25 @@
+.counter{
+    height: 320px;
+    width: 50%;
+    background-color: color(srgb 0.5895 0.6499 0.655);
+    margin: auto;
+    margin-top: 80px;
+    font-family: Didot;
+    font-size: 30px;
+    text-align: center;
+
+}
+.del{
+    text-align: center;
+}
+.delb{
+    background-color: color(srgb 0.5761 0.5834 0.6334) ;
+    width: 15%;
+    height: 60px;
+    border: double;
+    font-size: 20px;
+
+}
+.vis-tim{
+    font-family:Didot ;
+}

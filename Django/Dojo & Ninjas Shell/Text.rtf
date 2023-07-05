@@ -1,0 +1,47 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2639
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 1. - Dojo.objects.create(name = \'93Mahmoud Attieh\'94, city = \'93Ramallah\'94, state= \'93WB\'94)\
+- - Dojo.objects.create(name = \'93Ahmad Attieh\'94, city = \'93Ramallah\'94, state= \'93WB\'94)\
+- - -  Dojo.objects.create(name = \'93Yazan Kayed\'94, city = \'93Nablus\'94, state= \'93WB\'94)\
+2. del1 = Dojo.objects.first()\
+>> del1.delete()\
+ \{'dojo_app.Ninja': 0, 'dojo_app.Dojo': 1\} \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 del2.delete()\
+ \{'dojo_app.Ninja': 0, 'dojo_app.Dojo': 1\} \
+del3.delete()\
+ \{'dojo_app.Ninja': 0, 'dojo_app.Dojo': 1\} \
+\
+3. - Dojo.objects.create(name = \'93Mahmoud Attieh\'94, city = \'93Ramallah\'94, state= \'93WB\'94)\
+- - Dojo.objects.create(name = \'93Ahmad Attieh\'94, city = \'93Ramallah\'94, state= \'93WB\'94)\
+- - -  Dojo.objects.create(name = \'93Yazan Kayed\'94, city = \'93Nablus\'94, state= \'93WB\'94)\
+\
+4. Ninja.objects.create(first_name = \'93Mohammed\'94, last_name = \'93Attieh\'94, dojo = Dojo.objects.get(id=1)\
+- Ninja.objects.create(first_name = \'93Hakeem\'94, last_name = \'93Bargouthi\'94, dojo = Dojo.objects.get(id=1)\
+- - - Ninja.objects.create(first_name = \'93Rezik\'94, last_name = \'93Bahbah\'94, dojo = Dojo.objects.get(id=1)\
+\
+ 5. Ninja.objects.create(first_name = \'93Enzo\'94, last_name = \'93Dayem\'94, dojo = Dojo.objects.get(id=2))\
+- Ninja.objects.create(first_name = \'93Yazan\'94, last_name = \'93Kayed\'94, dojo = Dojo.objects.get(id=2))\
+- - - Ninja.objects.create(first_name = \'93Awad\'94, last_name = \'93Essa\'94, dojo = Dojo.objects.get(id=2))\
+\
+6. Retrive all ninja\
+\
+\'97 Dojo.objects.first().ninjas.all()\
+\'97 <Ninja: Ninja object (1)>, <Ninja: Ninja object (2)>, <Ninja: Ninja object (3)>\
+\
+7. Dojo.objects.last().ninjas.all()\
+\'97 Ninja: Ninja object (1)>, <Ninja: Ninja object (2)>, <Ninja: Ninja object (3)>\
+\
+8. from dojo_app.models import Ninja, Dojo\
+- -   Dojo.objects.all()\
+<Dojo: Dojo object (4)>, <Dojo: Dojo object (5)>, <Dojo: Dojo object (6)>\
+\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 \
+}

@@ -1,0 +1,10 @@
+*{
+    margin: 0auto;
+
+}
+.couterm ,.counter{
+    height: 100px;
+    width: 100px;
+    background-color: gray;
+    color: gray;
+}

@@ -1,0 +1,12 @@
+.all{
+    width: 50%;
+    margin: auto;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.top{
+    font-family: Chalkboard; 
+}

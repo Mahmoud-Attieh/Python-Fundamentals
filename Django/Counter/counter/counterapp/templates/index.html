@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    {% load static %}
+    <link rel="stylesheet" type='text/css' href="{% static 'style.css' %}">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter</title>
+</head>
+<body>
+    <div class="counter">
+        <h1>Counter</h1>
+        <h1 class="vis-tim">{{visits}}  Times....</h1>
+        <div class="del">
+            <a href="http://127.0.0.1:8000/destroy">
+            <button class="delb">Delete</button></a>
+        </div>
+    </div>
+</body>
+</html>

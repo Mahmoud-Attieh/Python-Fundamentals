@@ -1,0 +1,18 @@
+.container{
+    margin: auto;
+    width: 60%;
+    height: 400px;
+    border: solid;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.textarea{
+    width: 55%;
+    height: 90px;
+}
+.top{
+    margin: auto;
+    text-align: center;
+    border: solid;
+}

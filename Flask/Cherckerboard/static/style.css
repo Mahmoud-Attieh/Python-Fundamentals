@@ -1,0 +1,22 @@
+.container {
+    margin: 0 auto;
+    width: 1300px;
+}
+.color1 {
+    margin: 0;
+    display: inline-block;
+    background-color: red;
+    width: 150px;
+    height: 150px;
+    color: red;
+} 
+.color2 {
+    margin: 0;
+    display: inline-block;
+    background-color: black;
+    width: 150px;
+    height: 150px;
+    color: black;
+}
+
+

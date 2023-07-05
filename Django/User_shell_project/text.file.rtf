@@ -1,0 +1,36 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2639
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 Menlo-Regular;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+{\*\expandedcolortbl;;\csgray\c0;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww15940\viewh8400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs22 \cf2 \CocoaLigature0 \
+1. from User_shell_app.models import *\
+2. User.objects.create\
+(first_name = \'93Mahmoud\'94, last_name = \'93Attieh\'94 , email = \'93m.attieh1@outlook.com\'94 , age = 27 )\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+User.objects.create(first_name = \'93Muath\'94, last_name = \'93Alrefai\'94 , email = \'93muath@gmail.com\'94 , age = 27 )\
+\
+User.objects.create(first_name = \'93Nasri\'94, last_name = \'93Ladaa\'94 , email = \'93nasri.ladaa@axsos.academy\'94 , age = 33 )\
+\
+3. User.objects.all()\
+4. User.objects.get(id= 1 )\
+5. nas = User.objects.get(id= 3)\
+   nas.last_name =\'93Pancakes\'94\
+\
+6. mut = User.objects.get(id= 2)\
+	mut.delete()\
+\
+7. User.objects.all().order_by(\'93first_name\'94)\
+\
+8. User.objects.all().order_by(\'93-first_name\'94)\
+\
+\
+	\
+\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\
+}

@@ -1,0 +1,23 @@
+
+.container{
+    border: solid;
+    width: 35%;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.first{
+    text-align: center;
+    font-family: Chalkboard SE;
+    font-size: 22px;
+}
+.sec{
+    border: solid;
+    width: 50%;
+    margin: auto;
+
+}
+.time , .time2{
+    text-align: center;
+    height: 25px;
+}
